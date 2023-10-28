@@ -34,5 +34,5 @@ $dadosCotacao = $dadosCotacao[$moedaA.$moedaB] ?? [];
 
 // imprime o retorno da cotaçao
 
-echo 'Moedas: '.$moedaA.' -> '.$moedaB."\n";
-echo  'Valor: '.($dadosCotacao['bid'] ?? 'Recarregue')."\n";
+//echo 'Moedas: '.$moedaA.' -> '.$moedaB."\n";
+echo  ($dadosCotacao['bid'] ?? 'Recarregue')."\n";

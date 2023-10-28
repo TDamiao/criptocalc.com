@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background: #F7F7F7;
+    
+}
+
+
+h1, h2, h3 {
+
+    font-family: 'Montserrat', sans-serif;
+}
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+padding-top: 6rem;
+max-width: 100%;
+}
+
+.moedasright {
+
+
+ float: right;
+ margin-left: auto;
+ margin-right: 26rem;
+padding-top: 6rem;
+
+
+}
+
+.moedasleft {
+
+float: left;
+margin-right: auto;
+margin-left: 26rem;
+padding-top: 6rem;
+
+ 
+
+}
