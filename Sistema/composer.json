@@ -1,0 +1,9 @@
+
+{
+    "name": "code/criptocalc.com",
+    "autoload": {
+        "psr-4": {
+        "App\\":"app/"
+        }
+    }
+}
