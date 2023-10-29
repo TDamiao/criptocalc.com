@@ -13,30 +13,32 @@
 <body>
     <section class="main-content">
   <center><img class="logo" src="./assets/img/logo.svg" alt="logo"></center>
+
+
         <div class="moedasleft"> 
-            <select class="cbmoedasleft">
+        <p>selecione a moeda 1</p>
+            <select class="cbmoedasleft"  name="moedaA">
                 <option>BTC</option>
                 <option>USD</option>
                 <option>BRL</option>
                 <option>ERU</option>
             </select>
+            <input type="text"/>
 
-            <input type="text">
         </div>
 
         <div class="moedasright"> 
-
+        <p>selecione a moeda 2</p>
             <input type="text"  placeholder="<?php include('cotacao.php') ?> " >  
-            
-            <select class="cbmoedasright">
+            <select class="cbmoedasright" name="moedaB">
                 <option>USD</option>
                 <option>BTC</option>
                 <option>BRL</option>
                 <option>ERU</option>
             </select>
-
-  
         </div>
+
+
     </section>
 </body>
 </html>

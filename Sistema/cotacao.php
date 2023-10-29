@@ -20,8 +20,8 @@ $moedaB = $argv[2];
 
 */ 
 
-$moedaA = 'USD';
-$moedaB = 'BRL';
+$moedaA = $_POST['moedaA'] ?? 'BTC';
+$moedaB = $_POST['moedaB'] ?? 'BRL';
 
 
 //EXECUTA A REQU 
@@ -30,7 +30,7 @@ $dadosCotacao = $obEconomia->consultarCotacao($moedaA, $moedaB);
 //AJUSTA O RESPONSE 
 $dadosCotacao = $dadosCotacao[$moedaA.$moedaB] ?? [];
 
-
+$return = $dadosCotacao['bid'] ?? 'Sem par';
 
 // imprime o retorno da cotaçao
 
