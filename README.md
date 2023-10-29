@@ -1,6 +1,8 @@
 # criptocalc
 Site para realizar cálculos com cripto moedas.  
 
+composer install // Istalar dependencias
+
 
 lista completa de combinações: 
 
