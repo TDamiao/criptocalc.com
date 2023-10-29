@@ -26,10 +26,11 @@
 
         <div class="moedasright"> 
 
-            <input type="text">
+            <input type="text"  placeholder="<?php include('cotacao.php') ?> " >  
+            
             <select class="cbmoedasright">
-                <option>BTC</option>
                 <option>USD</option>
+                <option>BTC</option>
                 <option>BRL</option>
                 <option>ERU</option>
             </select>
